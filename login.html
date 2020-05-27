@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<head>
+		<title>Login</title>
+		  
+
+		<style>
+
+		.login-form {
+		 	background-color: #F6F7F8;
+		  	border: 1px solid #D6D9DC;
+		  	border-radius: 3px;
+		  	width: 80%;
+		  	padding: 50px;
+		  	margin: 0 0 40px 0;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<!-- Header-->
+		<div class="header">
+			<h1>TF Bank</h1>	
+			<h6>(The Fraud Bank)</h6>
+		</div>
+
+		<!-- Horizontal Menu Bar-->
+		<div class="navbar">
+			<a href=homepage.html>Home Page</a>
+			<a href="bank_info.html">Bank Info Page</a>
+			<a href="#" class="right">Customer Guarantee Page</a>
+		</div>
+
+		<!-- 2 Col Row-->
+		<div class="row">
+		  <!-- Side Menu Div -->
+		 	<div class="side">
+			  	<img src='images/TFB_main_image.jpg' width='200'/>
+			  		<h2>Menu<h2/>
+			  	<div class="vertical-menu">
+					<a href="homepage.html">Home Page</a>
+				    <a href="bank_info.html">Bank Info Page</a>
+				</div>
+		  
+		  	</div>
+
+		  	<div class="main">
+		  		<h2>Login</h2>
+
+				<form action='account_page.html' method='get' class='login-form'>
+				
+					<div class='form-row'>
+				  		<label for='account-type'>Account Type</label>
+				  		<select id='account-type' name='account-type'>
+				    		<option value='pers'>Personal</option>
+				    		<option value='buis'>Business</option>
+				  		</select>
+					</div>
+
+
+					<div class='form-row'>
+				  		<label for='email'>Email</label>
+				  		<input id='email' 
+				  			   name='email' 
+				  		 	   type='email'/>
+					</div>
+
+					<div class='form-row'>
+				   		<label for='password'>Password</label>
+				  		<input id='password' name='password' type='password'/>
+
+					</div>
+
+					<div class='form-row'>
+				  		<button>Submit</button>
+					</div>
+
+				</form>
+
+		  		<div>
+		  		
+		  		</div>
+		 	</div>
+		</div>
+	</body>
+</html>
+
+
